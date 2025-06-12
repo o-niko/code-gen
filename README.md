@@ -9,16 +9,8 @@ Este projeto é um gerador de classes Java que permite criar rapidamente templat
 - Acesso ao terminal (Linux ou macOS)
 --- 
 ## Instalação
-### 0. Utilize o setup.sh ou siga os passos de 1 a 5
-O script setup.sh é um jeito rápido de configurar o projeto para uso. Mas caso queira fazer passo a passo mesmo assim é só seguir em frente e executar os passos de 1 a 5.
-
-```bash
-chmod +x setup.sh
-sh ./setup.sh
-```
-
-
-### 1. Clone o Repositório
+### 0. Clone o Repositório e execute o setup.sh
+O script setup.sh é um jeito rápido de configurar o projeto para uso. Mas caso queira fazer passo a passo mesmo assim é só seguir em frente e executar os passos de 1 a 3.
 
 Primeiro, você precisa clonar este repositório para sua máquina. Abra o terminal e execute:
 
@@ -27,17 +19,22 @@ git clone git@github.com:o-niko/code-gen.git
 cd code-gen
 ```
 
-### 2. Instale Dependências (se houver)
+```bash
+chmod +x setup.sh
+sh ./setup.sh
+```
+
+### 1. Instale Dependências (se houver)
 Se o projeto tiver dependências, você pode instalá-las usando pip. No entanto, este projeto não possui dependências externas além do Python padrão.
 
-### 3.Torne o Script Executável
+### 2.Torne o Script Executável
 Adicione um "shebang" ao script e torne-o executável. Execute os seguintes comandos no terminal:
 
 ```bash
 chmod +x codegen.py
 ```
 
-### 4. Crie um link simbólico do script no seu /usr/bin para poder utilizá-lo de qualquer lugar
+### 3. Crie um link simbólico do script no seu /usr/bin para poder utilizá-lo de qualquer lugar
 ```bash
 mkdir -p ~/bin
 ln -s /caminho/para/seu/projeto/codegen.py ~/bin/codegen
