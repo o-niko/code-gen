@@ -17,7 +17,6 @@ templates = {
     "Port": port.VALUE
 }
 
-
 # Função para criar a estrutura de pastas e arquivos
 def create_structure(prefix, root_path, main_package, selected_templates):
     # Converte o pacote principal em um caminho de diretório
@@ -53,9 +52,9 @@ if __name__ == "__main__":
     # Solicita o prefixo ao usuário (sem valor padrão)
     prefix = input("Digite o prefixo para os arquivos (obrigatório): ")
 
-    # Solicita o caminho raiz ao usuário ou usa o padrão
-    root_path = input(
-        f"Digite a pasta de destino dos arquivos (padrão: {config.DEFAULT_ROOT_PATH}): ") or config.DEFAULT_ROOT_PATH
+    # Solicita o caminho raiz ao usuário ou usa o padrão e expande ~
+    root_path = os.path.expanduser(input(
+        f"Digite a pasta de destino dos arquivos (padrão: {config.DEFAULT_ROOT_PATH}): ") or config.DEFAULT_ROOT_PATH)
 
     # Solicita o main_package ao usuário ou usa o padrão
     main_package = input(
