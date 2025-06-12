@@ -26,7 +26,7 @@ sh ./setup.sh
 Se o projeto tiver dependências, você pode instalá-las usando pip. No entanto, este projeto não possui dependências externas além do Python padrão.
 
 ### 2.Torne o Script Executável
-Adicione um "shebang" ao script e torne-o executável. Execute os seguintes comandos no terminal:
+Execute os seguintes comandos no terminal:
 
 ```bash
 chmod +x codegen.py
