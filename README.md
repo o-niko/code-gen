@@ -1,7 +1,7 @@
 # code-gen
 # Gerador de Classes Java
 
-Este projeto é um gerador de classes Java que permite criar rapidamente templates de classes a partir de um prefixo fornecido pelo usuário. Você pode escolher gerar todos os templates de uma vez ou apenas alguns deles.
+Este projeto é um gerador de classes Java que permite criar rapidamente templates de classes em Arquitetura Hexagonal a partir de um prefixo fornecido pelo usuário. Você pode escolher gerar todos os templates de uma vez ou apenas alguns deles.
 
 ## Requisitos
 
