@@ -32,7 +32,8 @@ Execute os seguintes comandos no terminal:
 chmod +x codegen.py
 ```
 
-### 3. Crie um link simbólico do script no seu /usr/bin para poder utilizá-lo de qualquer lugar
+### 3. Crie um link simbólico do script
+Crie um link simbólico do script no seu ~/bin para poder utilizá-lo de qualquer lugar
 ```bash
 mkdir -p ~/bin
 ln -s /caminho/para/seu/projeto/codegen.py ~/bin/codegen
