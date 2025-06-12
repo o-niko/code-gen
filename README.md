@@ -12,8 +12,6 @@ Este projeto é um gerador de classes Java que permite criar rapidamente templat
 ### 0. Clone o Repositório e execute o setup.sh
 O script setup.sh é um jeito rápido de configurar o projeto para uso. Mas caso queira fazer passo a passo mesmo assim é só seguir em frente e executar os passos de 1 a 3.
 
-Primeiro, você precisa clonar este repositório para sua máquina. Abra o terminal e execute:
-
 ```bash
 git clone git@github.com:o-niko/code-gen.git
 cd code-gen
