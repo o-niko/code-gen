@@ -10,7 +10,7 @@ Este projeto é um gerador de classes Java que permite criar rapidamente templat
 --- 
 ## Instalação
 ### 0. Clone o Repositório e execute o setup.sh
-O script setup.sh é um jeito rápido de configurar o projeto para uso. Mas caso queira fazer passo a passo mesmo assim é só seguir em frente e executar os passos de 1 a 3.
+O script setup.sh é um jeito rápido de configurar o projeto para uso. Mas caso queira fazer passo a passo mesmo assim é só seguir em frente e executar os passos de 1 a 4.
 
 ```bash
 git clone git@github.com:o-niko/code-gen.git
@@ -38,6 +38,30 @@ Crie um link simbólico do script no seu ~/bin para poder utilizá-lo de qualque
 mkdir -p ~/bin
 ln -s /caminho/para/seu/projeto/codegen.py ~/bin/codegen
 ```
+
+### 4. Adicione o ~/bin ao seu $PATH (Opcional)
+Caso ainda não tenha o caminho ~/bin no seu $PATH, execute o comando abaixo de acordo com seu shell
+```bash
+# Bash
+echo 'export PATH="$HOME/bin:$PATH"' >> ~/.bashrc
+echo 'export PATH="$HOME/bin:$PATH"' >> ~/.bash_profile
+# zsh
+echo 'export PATH="$HOME/bin:$PATH"' >> ~/.zshrc
+#
+```
+
+Depois será preciso reiniciar o terminal ou executar o source para as atualizações serem efetivadas
+```bash
+# Bash
+source ~/.bashrc
+source ~/.bash_profile
+# zsh
+source ~/.zshrc
+#
+```
+
+
+
 ---
 
 
